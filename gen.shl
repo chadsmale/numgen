@@ -1,3 +1,5 @@
 #!/usr/bin/bash
 
-echo $RANDOM
+echo "max number?"
+read MAX
+echo $((RANDOM%${MAX}))
